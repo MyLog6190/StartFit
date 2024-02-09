@@ -11,7 +11,7 @@ export const Nav = styled(motion.nav)`
   height: 70px;
   top: 0px;
   padding: 15px 70px;
-  z-index: 999;
+  z-index: 99;
   @media (max-width: 576px) {
     padding: 15px 20px;
   }
