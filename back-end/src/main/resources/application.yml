@@ -1,1 +1,19 @@
+server:
+  port: 9999
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
 
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: startfit
+    password: startfit
+
+logging:
+  level:
+    "[org.hibernate]": info
+    "[org.springframework]": info
+    "[startfit]": debug
