@@ -23,7 +23,7 @@ function Home() {
       <Title>StartFit</Title>
       <Subtitle>운동을 시작해보세요.</Subtitle>
       <Grid>
-        <Link to="exercise/plan">
+        <Link to="plan">
           <Box>
             <Calendar2Week size="60" />
             <ContentTitle>오늘의 운동계획</ContentTitle>

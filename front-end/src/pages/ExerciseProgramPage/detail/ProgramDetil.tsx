@@ -42,8 +42,8 @@ function ProgramDetaile() {
       <Title>운동 리스트</Title>
       <Subtitle>프로그램에 따라 추천하는 운동리스트</Subtitle>
       <ProgramInfo>
-        {[1, 2, 3, 4, 5, 6].map(() => (
-          <ExerciseBox>
+        {[1, 2, 3, 4, 5, 6].map((item) => (
+          <ExerciseBox key={item}>
             <ExerciseImg></ExerciseImg>
             <ExerciseSetInfo>
               <ExerciseTitle>사이드 레터럴 레이즈</ExerciseTitle>

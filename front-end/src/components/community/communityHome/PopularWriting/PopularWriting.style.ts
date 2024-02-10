@@ -32,11 +32,13 @@ export const PopularWritingContent = styled.div`
 `;
 
 export const ArrowLeftWrapper = styled.div`
+  cursor: pointer;
   position: absolute;
   left: 0;
 `;
 
 export const ArrowRightWrapper = styled.div`
+  cursor: pointer;
   position: absolute;
   right: 0;
 `;

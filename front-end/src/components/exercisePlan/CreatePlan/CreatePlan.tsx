@@ -1,58 +1,42 @@
-import {
-  Overlay,
-  SelectionContainer,
-  Tabs,
-  Tab,
-  SearchBar,
-  ExercisesContainer,
-  ExerciseCategories,
-  CategoryItem,
-  ExerciseBox,
-  FlexBox,
-  IconBox,
-  CheckBox,
-  ExerciseImage,
-  ExerciseTitle,
-} from "./CreatePlan.style";
-import { exerciseFilterItems } from "../../../types/atom";
-import { useRecoilValue } from "recoil";
-import { Bookmark, InfoCircle } from "react-bootstrap-icons";
-import { isDarkMode } from "../../../types/atom";
+import { Link, Outlet } from "react-router-dom";
+import { motion } from "framer-motion";
+import { useSetRecoilState, useRecoilValue } from "recoil";
+import { isShowing } from "../../../types/atom";
+import { Overlay, SelectionContainer, Tabs, Tab } from "./CreatePlan.style";
+
+const overlayVariant = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
 
 function CreatePlan() {
-  const categorisList = useRecoilValue(exerciseFilterItems);
-  const isDark = useRecoilValue(isDarkMode);
-
+  const showing = useRecoilValue(isShowing);
+  const setShowing = useSetRecoilState(isShowing);
   return (
-    <Overlay>
-      <SelectionContainer>
-        <Tabs>
-          <Tab>운동</Tab>
-          <Tab>프로그램</Tab>
-        </Tabs>
-        <ExercisesContainer>
-          <SearchBar />
-          <ExerciseCategories>
-            {categorisList.map((item) => (
-              <CategoryItem>{item}</CategoryItem>
-            ))}
-          </ExerciseCategories>
-        </ExercisesContainer>
-        {Array.from(new Array(20), (i) => i + 1).map((item) => (
-          <ExerciseBox key={"E" + item}>
-            <FlexBox>
-              <CheckBox type="checkbox" />
-              <ExerciseImage />
-              <ExerciseTitle>ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</ExerciseTitle>
-            </FlexBox>
-            <IconBox>
-              <Bookmark size={30} color={isDark ? "#f8fbff" : "#151426"} />
-              <InfoCircle size={30} color={isDark ? "#f8fbff" : "#151426"} />
-            </IconBox>
-          </ExerciseBox>
-        ))}
-      </SelectionContainer>
-    </Overlay>
+    <>
+      {showing ? (
+        <Overlay
+          variants={overlayVariant}
+          initial="hidden"
+          animate="visible"
+          onClick={() => setShowing(false)}
+        >
+          <motion.div onClick={(e) => e.stopPropagation()}>
+            <SelectionContainer>
+              <Tabs>
+                <Link to={"/plan/create/exercise"}>
+                  <Tab>운동</Tab>
+                </Link>
+                <Link to={"/plan/create/programs"}>
+                  <Tab>프로그램</Tab>
+                </Link>
+              </Tabs>
+              <Outlet />
+            </SelectionContainer>
+          </motion.div>
+        </Overlay>
+      ) : null}
+    </>
   );
 }
 
