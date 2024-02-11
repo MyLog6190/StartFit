@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import image from "../../../../asset/png/Logo.png";
+import image from "@/asset/png/logo/Logo.png";
 
 export const Nav = styled(motion.nav)`
   display: flex;

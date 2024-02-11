@@ -1,5 +1,5 @@
-import { useRecoilValue } from "recoil";
-import { ExerciseVolumeList, filterList } from "../../../types/exercisePlan";
+import { useRecoilValue } from 'recoil'
+import { ExerciseVolumeList, filterList } from '@/types/exercisePlan'
 import {
   ExercisePlanItemContainer,
   ExercisePlanItem,
@@ -15,15 +15,15 @@ import {
   ActionButtonsContainer,
   CheckBox,
   AddSetBtn,
-} from "./ExercisePlanList.style";
-import { Trash } from "react-bootstrap-icons";
+} from './ExercisePlanList.style'
+import { Trash } from 'react-bootstrap-icons'
 
 const ExerciseVolumeListContainer = ({ plan }: any) => {
-  const volumes = useRecoilValue(ExerciseVolumeList);
-  const filteredVolumes = volumes.filter((prop) => prop.planId === plan.id);
+  const volumes = useRecoilValue(ExerciseVolumeList)
+  const filteredVolumes = volumes.filter((prop) => prop.planId === plan.id)
 
   const renderExerciseVolume = (volume: any) => (
-    <ExerciseSetContainer key={"S" + volume.id}>
+    <ExerciseSetContainer key={'S' + volume.id}>
       <ExerciseSetInputContainer>
         <ExerciseSetInput value={volume.set} readOnly />
         <ExerciseSetLable>SET</ExerciseSetLable>
@@ -37,26 +37,20 @@ const ExerciseVolumeListContainer = ({ plan }: any) => {
         <Trash size="25px" />
       </ActionButtonsContainer>
     </ExerciseSetContainer>
-  );
+  )
 
-  return (
-    <ExerciseSetsContainer>
-      {filteredVolumes.map((volume) => renderExerciseVolume(volume))}
-    </ExerciseSetsContainer>
-  );
-};
+  return <ExerciseSetsContainer>{filteredVolumes.map((volume) => renderExerciseVolume(volume))}</ExerciseSetsContainer>
+}
 
 function ExercisePlanListComponent() {
-  const planList = useRecoilValue(filterList);
+  const planList = useRecoilValue(filterList)
 
   return (
     <ExercisePlanItemContainer>
       {planList.map((plan) => (
-        <ExercisePlanItem key={"E" + plan.id}>
+        <ExercisePlanItem key={'E' + plan.id}>
           <ExercisePlanHeader>
-            <ExerciseCategory>
-              {plan.exerciseName + " | " + plan.categoryName}
-            </ExerciseCategory>
+            <ExerciseCategory>{plan.exerciseName + ' | ' + plan.categoryName}</ExerciseCategory>
             <Trash size="25px" />
           </ExercisePlanHeader>
           <hr />
@@ -68,7 +62,7 @@ function ExercisePlanListComponent() {
         </ExercisePlanItem>
       ))}
     </ExercisePlanItemContainer>
-  );
+  )
 }
 
-export default ExercisePlanListComponent;
+export default ExercisePlanListComponent

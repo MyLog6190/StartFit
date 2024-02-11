@@ -9,11 +9,11 @@ import {
   SideComponent,
   CommunityRuleContainer,
   CommunityRuleContent,
-} from "./Community.style";
+} from './Community.style'
 
-import PopularWriting from "../../../components/community/communityHome/PopularWriting/PopularWriting";
-import LatestWriting from "../../../components/community/communityHome/LatestWriting/LatestWriting";
-import CommunityNav from "../../../components/layout/Header/CommunityNav/CommunityNav";
+import PopularWriting from '@/components/community/communityHome/PopularWriting/PopularWriting'
+import LatestWriting from '@/components/community/communityHome/LatestWriting/LatestWriting'
+import CommunityNav from '@/components/layout/Header/CommunityNav/CommunityNav'
 
 function Community() {
   return (
@@ -46,10 +46,9 @@ function Community() {
                 <strong>StartFit 커뮤니티에 오신걸 환영합니다.</strong>
                 <br />
                 <br />
-                운동 루틴이나, 식단, 매일 운동한 모습을 인증하면서 등 운동을 더
-                즐겁게 할 수 있도록 다른 사람들과 소통해보세요. <br />
-                커뮤니티 관련 규칙들을 지키며 모든 사람들이 즐겁게 사용할 수
-                있도록 도와주세요.
+                운동 루틴이나, 식단, 매일 운동한 모습을 인증하면서 등 운동을 더 즐겁게 할 수 있도록 다른 사람들과
+                소통해보세요. <br />
+                커뮤니티 관련 규칙들을 지키며 모든 사람들이 즐겁게 사용할 수 있도록 도와주세요.
               </p>
               <ul>
                 <li>1. 운동에 관련된 내용만 올려주세요.</li>
@@ -65,7 +64,7 @@ function Community() {
         </SideComponent>
       </Wrapper>
     </>
-  );
+  )
 }
 
-export default Community;
+export default Community

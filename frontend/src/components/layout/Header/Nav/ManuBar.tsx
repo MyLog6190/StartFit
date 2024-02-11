@@ -37,7 +37,9 @@ function ManuBar() {
         <Logo />
       </Link>
       <Items>
-        <Item>로그인</Item>
+        <Link to="/login">
+          <Item>로그인</Item>
+        </Link>
         <Item>회원가입</Item>
         <Item>공지사항</Item>
         <Link to="mypage">

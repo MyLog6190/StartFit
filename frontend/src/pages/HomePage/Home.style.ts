@@ -53,6 +53,7 @@ export const Box = styled.div`
   min-width: 330px;
   height: 330px;
   border: 1px solid;
+  border-radius: 10px;
   padding: 50px;
   justify-content: center;
   align-items: center;

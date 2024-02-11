@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import imageURL from "../../asset/png/programs/stl.png";
+import styled from 'styled-components'
+import imageURL from '@/asset/png/programs/stl.png'
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -8,18 +8,18 @@ export const Wrapper = styled.div`
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.text};
   overflow: hidden;
-`;
+`
 
 export const Title = styled.h1`
   color: ${(props) => props.theme.text};
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 30px;
-`;
+`
 
 export const Subtitle = styled.p`
   margin-bottom: 70px;
-`;
+`
 
 export const FlexBox = styled.div`
   width: 100%;
@@ -32,7 +32,7 @@ export const FlexBox = styled.div`
   color: ${(props) => props.theme.text};
   @media (min-width: 800px) {
   }
-`;
+`
 
 export const ProgramContentsBox = styled.div`
   flex: 1;
@@ -43,23 +43,23 @@ export const ProgramContentsBox = styled.div`
   @media (min-width: 1350px) {
     flex: 0 0 50%;
   }
-`;
+`
 
 export const ProgramLevel = styled.h1`
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 75px;
-`;
+`
 
 export const ProgramTitle = styled.h3`
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 15px;
-`;
+`
 
 export const ProgramSummary = styled.p`
   word-wrap: break-word;
-`;
+`
 
 export const ProgramInfoBtn = styled.button`
   margin-top: 50px;
@@ -70,7 +70,7 @@ export const ProgramInfoBtn = styled.button`
   background-color: #355dff;
   border: none;
   color: ${(props) => props.theme.text};
-`;
+`
 
 export const ProgramImg = styled.div`
   flex: 1;
@@ -83,4 +83,4 @@ export const ProgramImg = styled.div`
   @media (min-width: 1350px) {
     flex: 0 0 50%;
   }
-`;
+`

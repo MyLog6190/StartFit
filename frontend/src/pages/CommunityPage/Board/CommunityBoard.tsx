@@ -1,5 +1,5 @@
-import React from "react";
-import CommunityNav from "../../../components/layout/Header/CommunityNav/CommunityNav";
+import React from 'react'
+import CommunityNav from '@/components/layout/Header/CommunityNav/CommunityNav'
 import {
   Wrapper,
   BoardMainContainer,
@@ -21,10 +21,10 @@ import {
   DateOfWirting,
   Hits,
   Like,
-} from "./CommunityBoard.style";
-import BoardPageHeader from "../../../components/community/board/BoardPageHeader/BoardPageHeader";
-import PopularPost from "../../../components/community/board/PopularPost/PopularPost";
-import { Search, Dot, Eye, HandThumbsUp } from "react-bootstrap-icons";
+} from './CommunityBoard.style'
+import BoardPageHeader from '@/components/community/board/BoardPageHeader/BoardPageHeader'
+import PopularPost from '@/components/community/board/PopularPost/PopularPost'
+import { Search, Dot, Eye, HandThumbsUp } from 'react-bootstrap-icons'
 function CommunityBoard() {
   return (
     <>
@@ -75,9 +75,7 @@ function CommunityBoard() {
                   <li>
                     <PostTitleContainer>
                       <PostCategory>자유게시판</PostCategory>
-                      <PostTitle>
-                        졸라 긴 제목 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                      </PostTitle>
+                      <PostTitle>졸라 긴 제목 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</PostTitle>
                     </PostTitleContainer>
                   </li>
                   <li>
@@ -100,7 +98,7 @@ function CommunityBoard() {
         <PopularPost />
       </Wrapper>
     </>
-  );
+  )
 }
 
-export default CommunityBoard;
+export default CommunityBoard

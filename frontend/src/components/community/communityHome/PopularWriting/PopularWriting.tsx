@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import { popularList } from "../../../../types/board";
-import { isDarkMode } from "../../../../types/atom";
+import { popularList } from "@/types/board";
+import { isDarkMode } from "@/types/atom";
 import { AnimatePresence } from "framer-motion";
 import { useRecoilValue } from "recoil";
 
@@ -21,11 +21,6 @@ import {
 
 import { ArrowLeftCircle, ArrowRightCircle } from "react-bootstrap-icons";
 
-interface ISize {
-  width: number;
-  height: number;
-}
-
 function PopularWriting() {
   const [index, setIndex] = useState(0);
   const popularPostList = useRecoilValue(popularList);
@@ -36,7 +31,6 @@ function PopularWriting() {
   const increaseIndex = (offset: number) => {
     const totalPost = popularPostList.length - 1;
     const maxIndex = Math.floor(totalPost / offset);
-    console.log(maxIndex);
     setIndex((prev) => (prev === maxIndex ? 0 : prev + 1));
   };
 
@@ -49,7 +43,6 @@ function PopularWriting() {
   const handleResize = () => {
     const resize = componentRef.current?.getBoundingClientRect();
     if (resize !== undefined) setOffset(Math.floor(resize.width / 250));
-    console.log(offset);
   };
 
   useEffect(() => {

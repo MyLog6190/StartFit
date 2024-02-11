@@ -1,5 +1,5 @@
-import React from "react";
-import { useRecoilValue } from "recoil";
+import React from 'react'
+import { useRecoilValue } from 'recoil'
 import {
   Warraper,
   Title,
@@ -13,12 +13,12 @@ import {
   ExerciseImg,
   ExerciseName,
   ExerciseNameContainer,
-} from "./ExerciseLibary.style";
-import { exerciseFilterItems } from "../../types/atom";
-import { Search, Bookmark } from "react-bootstrap-icons";
+} from './ExerciseLibary.style'
+import { exerciseFilterItems } from '@/types/atom'
+import { Search, Bookmark } from 'react-bootstrap-icons'
 
 function ExerciseLibrary() {
-  const filterItems = useRecoilValue(exerciseFilterItems);
+  const filterItems = useRecoilValue(exerciseFilterItems)
 
   return (
     <Warraper>
@@ -30,14 +30,9 @@ function ExerciseLibrary() {
       <ExerciseFilterContainer>
         {
           Object.values(filterItems as string[])?.map((item, index) => (
-            <React.Fragment key={"f" + index}>
-              <FilterRadioBtn
-                key={"item" + index}
-                type="radio"
-                id={item}
-                name="filterItem"
-              />
-              <ExerciseFilterLabal key={"la" + index} id={item}>
+            <React.Fragment key={'f' + index}>
+              <FilterRadioBtn key={'item' + index} type="radio" id={item} name="filterItem" />
+              <ExerciseFilterLabal key={'la' + index} id={item}>
                 {item}
               </ExerciseFilterLabal>
             </React.Fragment>
@@ -58,7 +53,7 @@ function ExerciseLibrary() {
         }
       </ExerciseBoxContainer>
     </Warraper>
-  );
+  )
 }
 
-export default ExerciseLibrary;
+export default ExerciseLibrary

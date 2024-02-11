@@ -7,13 +7,7 @@ server:
 
 spring:
   datasource:
-    driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.OracleDriver
     username: startfit
     password: startfit
-
-logging:
-  level:
-    "[org.hibernate]": info
-    "[org.springframework]": info
-    "[startfit]": debug
