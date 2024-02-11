@@ -40,7 +40,9 @@ function ManuBar() {
         <Item>로그인</Item>
         <Item>회원가입</Item>
         <Item>공지사항</Item>
-        <Item>마이페이지</Item>
+        <Link to="mypage">
+          <Item>마이페이지</Item>
+        </Link>
       </Items>
     </Nav>
   );

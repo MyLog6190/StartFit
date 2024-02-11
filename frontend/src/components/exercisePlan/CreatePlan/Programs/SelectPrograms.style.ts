@@ -29,7 +29,8 @@ export const ProgramBox = styled.div`
   margin-bottom: 15px;
   background-color: ${(prop) => prop.theme.main};
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
+  min-width: 520px;
 `;
 
 export const FlexBox = styled.div`
@@ -39,8 +40,8 @@ export const FlexBox = styled.div`
 `;
 
 export const ProgramImg = styled.div`
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 180px;
+  min-height: 180px;
   background-color: black;
   border-radius: 10px;
 `;

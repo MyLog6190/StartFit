@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "../components/layout/Header/Header";
-import Footer from "../components/layout/Footer/Footer";
+import Footer from "@/components/layout/Footer/Footer";
 import DarkMode from "../components/common/DarkMode/DarkModeToggle";
 import Home from "../pages/HomePage/Home";
 import ExerciseLibrary from "../pages/ExerciseLibraryPage/ExerciseLibrary";
@@ -11,6 +11,7 @@ import Community from "../pages/CommunityPage/Home/Community";
 import CommunityBoard from "../pages/CommunityPage/Board/CommunityBoard";
 import SelectExercise from "../components/exercisePlan/CreatePlan/Exercise/SelectExercise";
 import SelectPrograms from "../components/exercisePlan/CreatePlan/Programs/SelectPrograms";
+import Mypage from "../pages/MyPage/Mypage";
 
 function Router() {
   return (
@@ -29,6 +30,7 @@ function Router() {
         </Route>
         <Route path="/community" element={<Community />} />
         <Route path="/community/board" element={<CommunityBoard />} />
+        <Route path="/mypage" element={<Mypage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
