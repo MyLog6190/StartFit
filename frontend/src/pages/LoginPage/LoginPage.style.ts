@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logoImage from "@/asset/png/logo/Dumb_LogoStart_Fit_Dark-removebg-preview.png";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -22,7 +21,7 @@ export const LoginContainer = styled.div`
 export const Logo = styled.div`
   width: 400px;
   height: 300px;
-  background: url(${logoImage});
+  background: url(${(prop) => prop.theme.logImg});
   background-size: contain;
   background-repeat: no-repeat;
   background-color: ${(prop) => prop.theme.main};

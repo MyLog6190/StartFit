@@ -1,4 +1,6 @@
 import { DefaultTheme } from "styled-components";
+import logoLightImg from "@asset/png/logo/LogoStart_Fit_Light.png";
+import logoDarkImg from "@asset/png/logo/LogoStart_Fit_Dark.png";
 
 export const light: DefaultTheme = {
   body: "#f3f8fe",
@@ -10,6 +12,7 @@ export const light: DefaultTheme = {
   circle: "#e9ecef",
   barBg: "#b59369",
   toggleBg: "#141529",
+  logImg: logoLightImg,
 };
 
 export const dark: DefaultTheme = {
@@ -23,4 +26,5 @@ export const dark: DefaultTheme = {
   circle2: "#3b5998",
   barBg: "#3b5998",
   toggleBg: "#f3f8fe",
+  logImg: logoDarkImg,
 };
