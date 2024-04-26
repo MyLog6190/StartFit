@@ -7,7 +7,7 @@ export const Nav = styled(motion.div)`
   min-width: 576px;
   height: 50px;
   padding: 5px 60px;
-  background-color: ${(prop) => prop.theme.barBg};
+  background-color: ${(prop) => prop.theme.btnBg};
   z-index: 999;
   @media (max-width: 576px) {
     padding: 15px 10px;

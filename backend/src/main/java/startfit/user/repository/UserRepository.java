@@ -1,0 +1,12 @@
+package startfit.user.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import startfit.user.entity.UserEntity;
+
+public interface UserRepository extends JpaRepository<UserEntity, Long> {
+
+    boolean existsByEmail(String email);
+
+    UserEntity findByEmail(String email);
+}

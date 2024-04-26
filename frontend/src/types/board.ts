@@ -1,9 +1,5 @@
 import { atom } from "recoil";
 
-interface IBoardCategory {
-  category: ["공지사항", "자유게시판", "이벤트", "질문&답변", "인증하기"];
-}
-
 interface IBoard {
   id: number;
   userId?: string;
@@ -113,7 +109,7 @@ export const popularList = atom<IBoard[]>({
   ],
 });
 
-const latestPost = atom<IBoard[]>({
+export const latestPost = atom<IBoard[]>({
   key: "latestPost",
   default: [
     {

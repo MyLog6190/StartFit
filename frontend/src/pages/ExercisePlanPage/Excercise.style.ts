@@ -24,8 +24,8 @@ export const CreateBtn = styled.button`
   padding: 10px 100px;
   font-size: 18px;
   color: ${(props) => props.theme.text};
-  background-color: ${(props) => props.theme.barBg};
-  border: ${(props) => props.theme.barBg};
+  background-color: ${(props) => props.theme.btnBg};
+  border: ${(props) => props.theme.btnBg};
   border-radius: 15px;
   cursor: pointer;
   white-space: nowrap;

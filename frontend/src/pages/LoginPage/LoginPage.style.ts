@@ -42,5 +42,6 @@ export const LoginBtn = styled.div<{ $image: string }>`
   color: white;
   background-image: url(${(props) => props.$image});
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 `;

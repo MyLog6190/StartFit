@@ -20,7 +20,7 @@ const CommunityNav = () => {
         <Link to="/community">
           <Item>Home</Item>
         </Link>
-        <Link to="/community/board">
+        <Link to="board">
           <Item>게시판</Item>
         </Link>
       </Items>

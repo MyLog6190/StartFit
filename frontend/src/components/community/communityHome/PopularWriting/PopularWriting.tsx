@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { popularList } from "@/types/board";
-import { isDarkMode } from "@/types/atom";
+import { isDarkMode } from "@/store/atom";
 import { AnimatePresence } from "framer-motion";
 import { useRecoilValue } from "recoil";
 

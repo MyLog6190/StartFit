@@ -36,4 +36,5 @@ export const Item = styled.li`
   width: 90px;
   height: 20px;
   text-align: center;
+  cursor: pointer;
 `;

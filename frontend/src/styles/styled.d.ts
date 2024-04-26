@@ -4,7 +4,7 @@ declare module "styled-components" {
   export interface darkTheme {
     body: string;
     main: string;
-    second: sting;
+    second: string;
     text: string;
     border: string;
     hover: string;
