@@ -100,6 +100,7 @@ function Mypage() {
 
     console.log(responseBody);
   };
+
   useEffect(() => {
     setExerciseName(myPlan.map((plan) => plan.exerciseName));
     setPerformanceRate(
@@ -113,6 +114,7 @@ function Mypage() {
       })
     );
   }, [myPlan]);
+
   const closeEditProfile = () => {
     setShowing(false);
   };

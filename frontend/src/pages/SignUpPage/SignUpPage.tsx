@@ -47,7 +47,6 @@ function SignUpPage() {
 
   const signUpResponse = (responseBody: ResponseBody<SignUpReponseDto>) => {
     if (!responseBody) return serverErrorMessage("서버가 응답이 없습니다.");
-    console.log(responseBody);
 
     const { code } = responseBody;
     if (ResponseCode.DUPLICATE_ID === code)
