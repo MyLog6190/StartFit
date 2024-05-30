@@ -14,6 +14,7 @@
 
 ### LOGIN
 > ![login](https://github.com/MyLog6190/StartFit/assets/92650448/220c3505-a0de-49d1-a31a-4eda1de0752a)
+> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/220c3505-a0de-49d1-a31a-4eda1de0752a"  width="600" height="400"/>
 > 로그인 페이지
 
 ### Libaray
@@ -30,6 +31,7 @@
 ### MY_PAGE
 > ![mypage](https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c)
 > 계획한 운동 수행률을 확인할 수 있는 페이지
+
 
 
 ## 기술스택
