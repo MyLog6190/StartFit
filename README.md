@@ -6,6 +6,30 @@
 > 운동에 대한 정보를 제공하며, 무슨 운동을 할 지 잘 모르는 초보자들을 위해 운동 프로그램을 제공하여 운동을 꾸준히 할 수 있도록 도움을 주는 위한
 > 웹 사이트
 
+## 기술스택
+
+### FrondEnd
+
+> - React 18.2.0
+> - TypeScript 18.2.46
+> - Styled-Component
+> - Recoil
+> - Frame-Motion
+
+### BackEnd
+
+> - JAVA 17
+> - Spring Boot 3.2.4
+> - Gradle
+> - Spring Data Jpa
+> - Lombok
+> - Security
+> - JWT
+
+### DB
+
+> - MySQL
+
 ## 페이지
 
 ### HOME
@@ -38,29 +62,3 @@
 > <img src="https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c"  width="800" height="600"/>
 
 > 계획한 운동 수행률을 확인할 수 있는 페이지
-
-
-
-## 기술스택
-
-### FrondEnd
-
-> - React 18.2.0
-> - TypeScript 18.2.46
-> - Styled-Component
-> - Recoil
-> - Frame-Motion
-
-### BackEnd
-
-> - JAVA 17
-> - Spring Boot 3.2.4
-> - Gradle
-> - Spring Data Jpa
-> - Lombok
-> - Security
-> - JWT
-
-### DB
-
-> - MySQL
