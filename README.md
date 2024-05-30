@@ -63,6 +63,6 @@
 > 운동 계획을 짤 수 있는 페이지
 
 ### MY_PAGE
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c"  width="800" height="500"/>
+> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c"  width="700" height="500"/>
 
 > 계획한 운동 수행률을 확인할 수 있는 페이지
