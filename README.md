@@ -19,19 +19,19 @@
 > **로그인**
 >
 > - 회원가입을 통한 로그인과 소셜계정을 통한 로그인 기능
-
+>
 > **운동 설명**
 >
 > - 운동 부위, 운동 방법, 운동 설명을 볼 수 있도록 함
-
+>
 > **운동 루틴 생성**
 >
 > - 운동 날짜를 지정하여 운동 루틴을 짤 수 있는 기능
-
+>
 > **운동 루틴 추천**
 >
 > - 알려져 있는 운동 루틴을 실력에 맞게 추천
-
+>
 > **운동 수행률 확인**
 >
 > - 계획한 운동중에 얼마나 수행했는지 볼 수 있는 기능
@@ -96,31 +96,31 @@
 
 ### Libaray
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/5e1198e0-9f5d-4f96-ae77-8374a5ea3f7a"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/5e1198e0-9f5d-4f96-ae77-8374a5ea3f7a"  width="700" height="500"/>
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/09d7fc79-7681-4d3f-85dd-40e12a84b49a"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/09d7fc79-7681-4d3f-85dd-40e12a84b49a"  width="700" height="500"/>
 
-> 원하는 운동의 정보를 확인할 수 있는 페이지
+원하는 운동의 정보를 확인할 수 있는 페이지
 
 </br>
 
 ### PLAN
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/cfe00eb2-f9f2-425f-9331-f68de52ecc81"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/cfe00eb2-f9f2-425f-9331-f68de52ecc81"  width="700" height="500"/>
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/00a2e883-3bf5-4e86-9a1f-83f99e773241"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/00a2e883-3bf5-4e86-9a1f-83f99e773241"  width="700" height="500"/>
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/0223d232-c68d-43b6-9f74-ccb39ce2d9e3"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/0223d232-c68d-43b6-9f74-ccb39ce2d9e3"  width="700" height="500"/>
 
-> 운동 계획을 짤 수 있는 페이지
+운동 계획을 짤 수 있는 페이지
 
 </br>
 
 ### MY_PAGE
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/3b9ac1e7-7461-4cf8-8e0c-7981be40964c"  width="700" height="500"/>
 
-> 계획한 운동 수행률을 확인할 수 있는 페이지
+계획한 운동 수행률을 확인할 수 있는 페이지
 
 </br>
 
