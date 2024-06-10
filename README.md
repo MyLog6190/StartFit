@@ -1,42 +1,14 @@
 # StartFit
 
-</br></br></br>
-
-## 기술스택
-
-### IDE
-
-> - Visual Studio Code
-
-### FrondEnd
-
-> - React 18.^
-> - TypeScript 18.^
-> - Styled-Component
-> - Recoil
-> - Frame-Motion
-
-### BackEnd
-
-> - JAVA 17
-> - Spring Boot 3.2.^
-> - Gradle
-> - Spring Data Jpa
-> - Lombok
-> - Security
-> - JWT
-
-### DB
-
-> - MySQL
-
-</br></br></br>
-
 ## 프로젝트 설명
+
+</br>
 
 ### 프로젝트 목적
 
 > 운동을 처음하는 초보자는 관련 지식이 부족하기 때문에 초보자가 쉽게 운동을 할 수 있도록 도움을 주는 기능을 제공하여 초보자들이 쉽게 자신의 운동 루틴을 만들고 관리할 수 있도록 하는 웹사이트 개발
+
+</br>
 
 ### 프로젝트 방향성
 
@@ -47,6 +19,8 @@
 > **운동 계획**
 >
 > - 운동계획을 짤 수 있는 기능을 제공하고, 어떤 운동을 해야할지 잘 모르는 초보자에세 운동 프로그램을 제공
+
+</br>
 
 ### 프로젝트 내용
 
@@ -70,6 +44,46 @@
 >
 > - 계획한 운동중에 얼마나 수행했는지 볼 수 있는 기능
 
+---
+
+</br></br></br>
+
+## 기술스택
+
+### IDE
+
+> - Visual Studio Code
+
+</br>
+
+### FrondEnd
+
+> - React 18.^
+> - TypeScript 18.^
+> - Styled-Component
+> - Recoil
+> - Frame-Motion
+
+</br>
+
+### BackEnd
+
+> - JAVA 17
+> - Spring Boot 3.2.^
+> - Gradle
+> - Spring Data Jpa
+> - Lombok
+> - Security
+> - JWT
+
+</br>
+
+### DB
+
+> - MySQL
+
+---
+
 </br></br></br>
 
 ## 페이지
@@ -80,11 +94,15 @@
 
 > START_FIT의 제곤하는 컨텐츠를 볼 수 있는 홈 화면 페이지
 
+</br>
+
 ### LOGIN
 
 > <img src="https://github.com/MyLog6190/StartFit/assets/92650448/220c3505-a0de-49d1-a31a-4eda1de0752a"  width="700" height="500"/>
 
 > 로그인 페이지
+
+</br>
 
 ### Libaray
 
@@ -93,6 +111,8 @@
 > <img src="https://github.com/MyLog6190/StartFit/assets/92650448/09d7fc79-7681-4d3f-85dd-40e12a84b49a"  width="700" height="500"/>
 
 > 원하는 운동의 정보를 확인할 수 있는 페이지
+
+</br>
 
 ### PLAN
 
@@ -103,6 +123,8 @@
 > <img src="https://github.com/MyLog6190/StartFit/assets/92650448/0223d232-c68d-43b6-9f74-ccb39ce2d9e3"  width="700" height="500"/>
 
 > 운동 계획을 짤 수 있는 페이지
+
+</br>
 
 ### MY_PAGE
 
