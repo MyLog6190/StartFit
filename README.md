@@ -80,17 +80,17 @@
 
 ### HOME
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/a092e489-9569-436a-b6c2-93e5c548d215"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/a092e489-9569-436a-b6c2-93e5c548d215"  width="700" height="500"/>
 
-> START_FIT의 제곤하는 컨텐츠를 볼 수 있는 홈 화면 페이지
+START_FIT의 제곤하는 컨텐츠를 볼 수 있는 홈 화면 페이지
 
 </br>
 
 ### LOGIN
 
-> <img src="https://github.com/MyLog6190/StartFit/assets/92650448/220c3505-a0de-49d1-a31a-4eda1de0752a"  width="700" height="500"/>
+<img src="https://github.com/MyLog6190/StartFit/assets/92650448/220c3505-a0de-49d1-a31a-4eda1de0752a"  width="700" height="500"/>
 
-> 로그인 페이지
+로그인 페이지
 
 </br>
 
