@@ -47,6 +47,7 @@ function ProgramDetaile() {
   const getProgramContentsResponse = (
     responseBody: ResponseBody<ProgramContentsResponseDto>
   ) => {
+    console.log(responseBody);
     if (!responseBody) return serverErrorMessage("서버의 응답이 없습니다.");
     const { code } = responseBody;
     if (ResponseCode.DATABASE_ERROR == code)

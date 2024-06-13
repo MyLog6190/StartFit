@@ -11,7 +11,7 @@ const DOMAIN = "http://localhost:8888";
 const API_DOMAIN = `${DOMAIN}/api/v1/auth`;
 
 export const SNS_SIGN_IN_DOMAIN = (type: "naver" | "kakao" | "google") =>
-  `${API_DOMAIN}/auth/oauth2/${type}`;
+  `${API_DOMAIN}/oauth2/${type}`;
 const SIGN_IN_DOMAIN = () => `${API_DOMAIN}/login`;
 const LOGOUT_DOMAIN = () => `${API_DOMAIN}/logout`;
 const SIGN_UP_DOMAIN = () => `${API_DOMAIN}/sign-up`;

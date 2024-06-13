@@ -55,6 +55,7 @@ public class ExerciseServiceImplement implements ExerciseService {
     @Override
     public ResponseEntity<? super GetProgramContentsResponseDto> getProgramContents(int id) {
         try {
+            System.out.println(id);
             List<ProgramContentsDto> programContentsList = programContentsRepository.findByProgramId(id);
             System.out.println(programContentsList);
             return GetProgramContentsResponseDto.success(programContentsList);
